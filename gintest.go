@@ -1,6 +1,7 @@
 package main
-import "fmt"
+import ("fmt"
+	"gitlab.mobile-info.ru/lap/stringutil")
 
 func main() {
-    fmt.Printf("hello, world\n")
+    fmt.Println(stringutil.Reverse("!oG ,olleH"))
 }
